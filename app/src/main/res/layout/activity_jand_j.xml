@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JandJ"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rel1">
+
+        <TextView
+            android:layout_width="224dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="110dp"
+            android:fontFamily="@font/kolkerbrush"
+            android:text="Vaccinated"
+            android:textColor="@color/purple_200"
+            android:textSize="80dp"
+            android:layout_marginTop="70dp"/>
+        <TextView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_arrow_back_1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Johnson and Johnson Vaccine"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:text="Recommended Age:Above 16"
+            android:textColor="@color/purple_200"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="682dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:text="In most situations, Pfizer-BioNTech or Moderna COVID-19 vaccines are preferred over the J and J COVID-19 vaccine for primary and booster vaccination due to the risk of serious adverse events. Vaccine recipients must be informed of the risks and benefits of J and J COVID-19 vaccination. The J and J COVID-19 vaccine may be considered in some situations, including for persons who:
+
+Had a severe reaction after an mRNA vaccine dose or who have a severe allergy to an ingredient of Pfizer-BioNTech or Moderna (mRNA COVID-19 vaccines).
+Would otherwise remain unvaccinated for COVID-19 due to limited access to Pfizer-BioNTech or Moderna (mRNA COVID-19 vaccines).
+Wants to get the J and J COVID-19 vaccine despite the safety concerns.If you have had a severe allergic reaction (anaphylaxis) or an immediate allergic reaction, even if it was not severe, to any ingredientexternal icon in the J and J COVID-19 vaccine (such as polysorbate), you should not get the J and J COVID-19 vaccine."
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

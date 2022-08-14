@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".td"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rel1">
+
+        <TextView
+            android:layout_width="224dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="110dp"
+            android:fontFamily="@font/kolkerbrush"
+            android:text="Vaccinated"
+            android:textColor="@color/purple_200"
+            android:textSize="80dp"
+            android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Tetanus-diphtheria "
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="Recommended Age:"
+            android:textColor="@color/purple_200"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="I dose:As soon as pregnancy is detected"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="II dose:1 month after Ist dose"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="682dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:text="Immunisation of all pregnant women is important in preventing neonatal and maternal tetanus. In unimmunised pregnant women two doses of TT should be given, the first as early as possible during pregnancy and the second at least a month later and at least three weeks before delivery6.Most side effects from Tdap vaccination, including vaccination during pregnancy, are mild or moderate, and self-resolving. The most common side effects include
+
+Erythema, swelling, pain, and tenderness at the injection site
+Body-ache
+Fatigue
+Fever. Since the maternal immune response to the vaccine peaks about 2 weeks after administration, CDC recommends Tdap during the early part of gestational weeks 27 through 36 in order to maximize passive antibody transfer and protection at birth, not for any safety concerns."
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

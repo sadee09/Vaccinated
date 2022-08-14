@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".covid"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rel1">
+
+        <TextView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_baseline_arrow_back_1" />
+
+        <TextView
+            android:layout_width="224dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/kolkerbrush"
+            android:text="Vaccinated"
+            android:textColor="@color/purple_200"
+            android:textSize="80dp" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/covid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Covid Vaccine "
+            android:textColor="@color/purple_200"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ListView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView_data"
+            android:choiceMode="multipleChoice"
+            android:clickable="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/verocell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textColor="@color/purple_200"
+                android:text="Details"
+                android:layout_marginTop="20dp"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/covishield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:text="Details"
+                android:textColor="@color/purple_200"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/pfizer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Details"
+                android:layout_marginTop="22dp"
+                android:textColor="@color/purple_200"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/moderna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Details"
+                android:layout_marginTop="22dp"
+                android:textColor="@color/purple_200"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/jj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Details"
+                android:layout_marginTop="22dp"
+                android:textColor="@color/purple_200"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/booster"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Details"
+                android:layout_marginTop="22dp"
+                android:textColor="@color/purple_200"
+                android:clickable="true"/>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".moderna"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rel1">
+
+        <TextView
+            android:layout_width="224dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="110dp"
+            android:fontFamily="@font/kolkerbrush"
+            android:text="Vaccinated"
+            android:textColor="@color/purple_200"
+            android:textSize="80dp"
+            android:layout_marginTop="70dp"/>
+        <TextView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_arrow_back_1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Moderna Vaccine"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:text="Recommended Age:Above 16"
+            android:textColor="@color/purple_200"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="Two doses 1 month apart"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="682dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="It is developed by ModernaTX,INC.2 shots, 28 days apart
+Moderately or severely immunocompromised people should get an additional primary shot (third dose) at least 28 days after their second shot.The Moderna vaccine is recommended for people ages 18 years and older.If you have had a severe allergic reaction to any ingredient in an mRNA COVID-19 vaccine (such as polyethylene glycol), you should not get an mRNA COVID-19 vaccine (Moderna or Pfizer-BioNTech).
+If you had a severe allergic reaction after getting the first dose of an mRNA COVID-19 vaccine, you should not get a second dose of either of the mRNA COVID-19 vaccines (Moderna or Pfizer-BioNTech).
+A severe allergic reaction can cause a rapid heartbeat, difficulty breathing, swelling of the throat, or a generalized rash or hives. A person with a severe allergic reaction needs to be treated with epinephrine (often given as an EpiPen®) and should seek immediate medical attention.
+If you cannot get an mRNA COVID-19 vaccine, you may still be able to get a different type of COVID-19 vaccine."
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

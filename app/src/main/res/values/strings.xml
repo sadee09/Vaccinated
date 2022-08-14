@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">storage</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="_977">+977</string>
+    <string name="_9887456623">9887456623</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="title_activity_google_maps_api">google_maps_api</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_google_maps_app">GoogleMapsApp</string>
+
+    <string-array name="Baby_Vaccine">
+        <item>Bcg = bcg;</item>
+        <item>Pcv1 = pcv1;</item>
+        <item>Pcv2 = pcv2;</item>
+        <item> Dpthhib1 = dpthhib1;</item>
+        <item>Dpthhib2 = dpthhib2;</item>
+        <item>Dpthhib3 = dpthhib3;</item>
+        <item> Polio1 = polio1;</item>
+        <item>Polio2 = polio2;</item>
+        <item> Polio3 = polio3;</item>
+        <item>Fipv1 = fipv1;</item>
+        <item>Fipv2 = fipv2;</item>
+        <item> Measles1 = measles1;</item>
+        <item>Measles2 = measles2;</item>
+        <item>Japanese = japanese;</item>
+        <item>Pcv3 = pcv3;</item>
+
+    </string-array>
+
+</resources>

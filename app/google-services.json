@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "815826123976",
+    "project_id": "clgproj-c360a",
+    "storage_bucket": "clgproj-c360a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815826123976:android:11724fa368305c015fb9fd",
+        "android_client_info": {
+          "package_name": "com.samrina.storage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815826123976-cnsn6mfprb1bsap1931remhp7vkotkpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samrina.storage",
+            "certificate_hash": "3c307c12d496e51009c972b1cf94c14ee8828df0"
+          }
+        },
+        {
+          "client_id": "815826123976-gm2s2ikqida4g5a3ip7gelf1f1nb6tsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8YQ-6AlvsgQFghhFTLzXU4S9qcPg5myA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815826123976-gm2s2ikqida4g5a3ip7gelf1f1nb6tsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

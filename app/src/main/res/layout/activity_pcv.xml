@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pcv"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rel1">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="224dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="110dp"
+            android:fontFamily="@font/kolkerbrush"
+            android:text="Vaccinated"
+            android:textColor="@color/purple_200"
+            android:textSize="80dp" />
+
+        <TextView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_baseline_arrow_back_1" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Pneumococcal conjugate Vaccination (PCV)"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="Recommended Age:"
+            android:textColor="@color/purple_200"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="I dose:6 weeks (1.5 month)"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="II dose:10 weeks(2.5 month)"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="III dose: 9 month"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="682dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="Pneumococcal disease is a serious infection caused by a bacteria. Pneumococcal bacteria can infect the sinuses and inner ear. It can also infect the lungs, blood, and brain, and these conditions can be fatal.For children, the pneumococcal 13-valent vaccine is given in a series of shots. The first shot is usually given when the child is 2 months old. The booster shots are then given at 4 months, 6 months, and 12 to 15 months of age. Adults usually receive only one dose of the vaccine.
+
+In a child older than 6 months who has not yet received this vaccine, the first dose can be given any time from the age of 7 months through 5 years (before the 6th birthday).
+
+If the child is less than 1 year old at the time of the first shot, he or she will need 2 booster doses. If the child is 12 to 23 months old at the time of the first shot, he or she will need 1 booster dose. A child who is 2 years or older at the time of the first shot may need only the one shot and no booster doses.
+
+The timing of this vaccination is very important for it to be effective. "
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

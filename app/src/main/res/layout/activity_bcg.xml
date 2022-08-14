@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BCG">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rel1">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="224dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="110dp"
+            android:fontFamily="@font/kolkerbrush"
+            android:text="Vaccinated"
+            android:textColor="@color/purple_200"
+            android:textSize="80dp" />
+
+        <TextView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_baseline_arrow_back_1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Bacille Calmette-Guerin (BCG)"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:text="[Recommended Age:Soon After Birth]"
+            android:textColor="@color/purple_200"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="682dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="BCG vaccine is used to help prevent tuberculosis (TB) in adults and children who have never had this disease and test negative for tuberculosis. BCG vaccine is recommended if you live with or have close contact with someone who is infected with tuberculosis. This vaccine helps your body develop immunity to the TB, but will not treat an active infection you already have. Like any vaccine, the BCG vaccine vaccine may not provide protection from disease in every person. BCG vaccine may also be used for purposes not listed in this medication guide. "
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bacillus Calmette–Guérin vaccine is a vaccine primarily used against tuberculosis. It is named after its inventors Albert Calmette and Camille Guérin. In countries where tuberculosis or leprosy is common, one dose is recommended in healthy babies as soon after birth as possible. In areas where tuberculosis is not common, only children at high risk are typically immunized, while suspected cases of tuberculosis are individually tested for and treated. Adults who do not have tuberculosis and have not been previously immunized, but are frequently exposed, may be immunized, as well. BCG also has some effectiveness against Buruli ulcer infection and other nontuberculous mycobacterial infections. Additionally it is sometimes used as part of the treatment of bladder cancer."
+            android:textSize="14dp"
+            android:textColor="@color/purple_200"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "316226762573",
+    "project_id": "pushnotification-df779",
+    "storage_bucket": "pushnotification-df779.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316226762573:android:a75fbb4cc59f95ba662904",
+        "android_client_info": {
+          "package_name": "com.samrina.storage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316226762573-15gkt2n9j8rs5efrnric6r8f8k1i02tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTFmWXYXIrkhnWExyWUYp7dHloj21lfD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316226762573-15gkt2n9j8rs5efrnric6r8f8k1i02tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316226762573:android:a6650f377210f3e6662904",
+        "android_client_info": {
+          "package_name": "com.samrina.storagepushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316226762573-15gkt2n9j8rs5efrnric6r8f8k1i02tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTFmWXYXIrkhnWExyWUYp7dHloj21lfD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316226762573-15gkt2n9j8rs5efrnric6r8f8k1i02tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

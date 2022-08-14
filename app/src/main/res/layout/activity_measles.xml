@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".measles"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rel1">
+
+        <TextView
+            android:layout_width="224dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/kolkerbrush"
+            android:text="Vaccinated"
+            android:textColor="@color/purple_200"
+            android:textSize="80dp" />
+
+        <TextView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_baseline_arrow_back_1" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Measles-rubella"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="Recommended Age:"
+            android:textColor="@color/purple_200"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="I dose:9 months"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="II dose:15 months"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="682dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="Measles is a very contagious (easily spread) infection that causes a rash all over your body. It is also called rubeola or red measles.
+
+The measles vaccine protects against the illness. This vaccine is part of the MMR (measles, mumps, and rubella) and MMRV (measles, mumps, rubella, and varicella [chickenpox]) vaccines. Most children get the vaccine as part of their regular shots.Measles is caused by a virus. It is spread when an infected person coughs, sneezes, or shares food or drinks. The measles virus can travel through the air. This means that you can get measles if you are near someone who has the virus even if that person doesn't cough or sneeze directly on you.Rubella is a very contagious (easily spread) illness caused by the rubella virus. It is usually a mild illness. But in rare cases, it may cause more serious problems.The rubella virus most often is spread through droplets of fluid from the mouth, nose, or eyes of someone who has the infection. A person who has the infection can spread these droplets by coughing, sneezing, talking, or sharing food or drinks. You can get infected by touching something that has the droplets on it and then touching your eyes, nose, or mouth before washing your hands."
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

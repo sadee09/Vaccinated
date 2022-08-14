@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dpthibb"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rel1">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="224dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="110dp"
+            android:fontFamily="@font/kolkerbrush"
+            android:text="Vaccinated"
+            android:textColor="@color/purple_200"
+            android:textSize="80dp" />
+
+        <TextView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_baseline_arrow_back_1" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Diphtheria-pertussis-tetanus (DPT),Haemophilus influenzae type b (HIB),Hepatitis B"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:text="Recommended Age:"
+            android:textColor="@color/purple_200"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="I dose:6 weeks"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="II dose:10 weeks(2.5 month)"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="III dose: 14 weeks(3.5 month)"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="The DPT vaccine or DTP vaccine is a class of combination vaccines against three infectious diseases in humans: diphtheria, pertussis (whooping cough), and tetanus.The vaccine components include diphtheria and tetanus toxoids and either killed whole cells of the bacterium that causes pertussis or pertussis antigens.The DPT vaccine should be avoided in persons who experienced a severe allergic reaction, such as anaphylaxis, to a past vaccine containing tetanus, diphtheria, or pertussis. It should also be avoided in persons with a known severe allergy to an ingredient in the vaccine. If the reaction was caused by tetanus toxoids, the CDC recommends considering a passive immunization with tetanus immune globulin (TIG) if a person has a large or unclean wound.The Haemophilus influenzae type B vaccine, also known as Hib vaccine, is a vaccine used to prevent Haemophilus influenzae type b (Hib) infection.In countries that include it as a routine vaccine, rates of severe Hib infections have decreased more than 90%.The first dose is recommended around six weeks of age with at least four weeks between doses.If only two doses are used, another dose later in life is recommended.It is given by injection into a muscle.
+
+
+
+
+"
+            android:textColor="@color/purple_200"
+            android:textSize="14dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
